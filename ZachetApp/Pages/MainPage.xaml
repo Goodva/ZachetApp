@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ZachetApp.MainPage">
+
+    <ScrollView>
+
+        <FlexLayout Direction="Column"
+                    AlignItems="Center"
+                    JustifyContent="SpaceBetween">
+
+            <Label
+                Text="Расходы за (месяц) (сегодняшняя дата)"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="12"
+                HorizontalOptions="Center"
+                />
+
+            <Label
+                Text="Всего за месяц: ХХХХХ руб."
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="(тут будет блок с топ-3 категориями трат за месяц)"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                FontSize="12"
+                HorizontalOptions="Center" />
+
+            <Button
+                x:Name="CounterBtn"
+                Text="Подбробнее"
+                SemanticProperties.Hint="Counts the number of times you click"
+                HorizontalOptions="Center" />
+        </FlexLayout>
+    </ScrollView>
+
+</ContentPage>
